@@ -1574,6 +1574,7 @@ body::after {
 	line-height: 1.2;
 	color: #000000;
 	margin: 0px 0px 30px 0px;
+	word-break: break-word;
 }
 .tokenomics__line:last-child {
 	margin: 0;
@@ -1609,16 +1610,19 @@ body::after {
 @media (max-width: 1360px) {
 	.tokenomics__value_s {
 		font-size: 16px;
+		word-break: break-word;
 	}
 }
 @media (max-width: 1024px) {
 	.tokenomics__value_s {
 		font-size: 14px;
+		word-break: break-word;
 	}
 }
 @media (max-width: 360px) {
 	.tokenomics__value_s {
 		font-size: 12px;
+		word-break: break-word;
 	}
 }
 
