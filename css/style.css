@@ -2437,7 +2437,7 @@ body::after {
 	position: absolute;
 	bottom: 100%;
 	right: 0;
-	top: -400px;
+	top: -390px;
 	width: 400px;
 }
 .follow__face2 img {
